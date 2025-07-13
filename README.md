@@ -33,5 +33,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1827-invalid-tweets](https://github.com/chandruiyappan/Leetcode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/chandruiyappan/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/chandruiyappan/Leetcode/tree/master/2087-confirmation-rate) |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/chandruiyappan/Leetcode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 | [3932-find-covid-recovery-patients](https://github.com/chandruiyappan/Leetcode/tree/master/3932-find-covid-recovery-patients) |
 <!---LeetCode Topics End-->
