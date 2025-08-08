@@ -41,4 +41,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2087-confirmation-rate](https://github.com/chandruiyappan/Leetcode/tree/master/2087-confirmation-rate) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/chandruiyappan/Leetcode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 | [3932-find-covid-recovery-patients](https://github.com/chandruiyappan/Leetcode/tree/master/3932-find-covid-recovery-patients) |
+## Array
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/chandruiyappan/Leetcode/tree/master/0200-number-of-islands) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/chandruiyappan/Leetcode/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/chandruiyappan/Leetcode/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/chandruiyappan/Leetcode/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/chandruiyappan/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
