@@ -1,24 +1,16 @@
 class Solution:
-    def numIslands(self, grid: list[list[str]]) -> int:
-        if not grid or not grid[0]:
-            return 0
+    @staticmethod
+    def numIslands(g):
+        def dfs(i, j):
+            if 0 <= i < len(g) and 0 <= j < len(g[0]) and g[i][j] == "1":
+                g[i][j] = "0"
+                for x, y in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                    dfs(i + x, j + y)
 
-        m, n = len(grid), len(grid[0])
-        islands = 0
-        dirs = [(1,0),(-1,0),(0,1),(0,-1)]
-
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == '1':
-                    islands += 1
-                    # iterative DFS using stack
-                    stack = [(i, j)]
-                    grid[i][j] = '0'  # mark visited
-                    while stack:
-                        x, y = stack.pop()
-                        for dx, dy in dirs:
-                            nx, ny = x + dx, y + dy
-                            if 0 <= nx < m and 0 <= ny < n and grid[nx][ny] == '1':
-                                grid[nx][ny] = '0'
-                                stack.append((nx, ny))
-        return islands
+        c = 0
+        for i in range(len(g)):
+            for j in range(len(g[0])):
+                if g[i][j] == "1":
+                    dfs(i, j)
+                    c += 1
+        return c
